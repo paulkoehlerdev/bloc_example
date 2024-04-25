@@ -81,3 +81,9 @@ To update the counter value, we can use the `context` to get the `CounterCubit` 
 void _increment(BuildContext context) => context.read<CounterCubit>().increment();
 // ...
 ```
+
+For more information on how to use `flutter_bloc`, check out the [documentation](https://bloclibrary.dev/), or look at the code.
+
+## Talk about this project
+
+This project was created as part of a educational talk in the lecture [Mobile Anwendungen (Mobile Application Development)](https://hm.pages.gitlab.lrz.de/muc.dai-organisation/gs/Mobile%20Anwendungen.html) at the [Hochschule München University of Applied Sciences](https://www.hm.edu/).
