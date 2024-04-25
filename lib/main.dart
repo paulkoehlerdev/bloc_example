@@ -1,9 +1,10 @@
 import 'package:bloc_example/pages/index.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-void main() {
-  runApp(const App());
-}
+import 'models/counter.dart';
+
+void main() => runApp(const App());
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -15,9 +16,10 @@ class App extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      routes: <String, WidgetBuilder>{
-        '/': (_) => const IndexPage(),
-      },
+      home: BlocProvider(
+        create: (context) => CounterCubit(),
+        child: const IndexPage()
+      ),
     );
   }
 }
