@@ -2,7 +2,7 @@ import 'package:bloc_example/pages/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'models/counter.dart';
+import 'cubits/counter.dart';
 
 void main() => runApp(const App());
 
