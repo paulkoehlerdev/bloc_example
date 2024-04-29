@@ -44,7 +44,7 @@ class SimpleStateProvider<T extends SimpleState> extends InheritedWidget {
   static SimpleStateProvider<T> of<T extends SimpleState>(
       BuildContext context) {
     final result = maybeOf<T>(context);
-    assert(result != null, 'No StateProvider found in context');
+    assert(result != null, 'No SimpleStateProvider found in context');
     return result!;
   }
 }

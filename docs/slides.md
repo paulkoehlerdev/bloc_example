@@ -189,7 +189,7 @@ class SimpleStateProvider<T extends SimpleState> extends InheritedWidget {
   static SimpleStateProvider<T> of<T extends SimpleState>(
       BuildContext context) {
     final result = maybeOf<T>(context);
-    assert(result != null, 'No StateProvider found in context');
+    assert(result != null, 'No SimpleStateProvider found in context');
     return result!;
   }
 }
@@ -247,7 +247,7 @@ class CounterSimpleState extends SimpleState<int> {
 class App extends StatelessWidget {
   const App({super.key});
 
-  final _counterState = CounterSimpleState()
+  final _counterState = CounterSimpleState();
 
   @override
   Widget build(BuildContext context) {
