@@ -25,7 +25,7 @@ Presented by Paul Köhler
 
 - Introduction to `bloc`
 - How does `bloc` work?
-- Getting under the hood🔎
+- Getting under the hood 🔎
 - Advanced `bloc`
 - Summary
 

@@ -1,0 +1,14 @@
+
+What is the core principle behind the bloc library in Flutter for state management?
+A) Provider-based state management
+B) Redux architecture
+C) Reactive programming
+D) InheritedWidget approach
+ANSWER: D
+
+Which of the following is NOT a fundamental component of implementing bloc architecture in Flutter?
+A) BlocProvider
+B) BlocBuilder
+C) BlocStream
+D) BlocListener
+ANSWER: C
