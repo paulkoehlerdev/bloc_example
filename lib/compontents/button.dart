@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../cubits/counter.dart';
+import '../simple_state/counter.dart';
+import '../simple_state_management/simple_state_management.dart';
 
 class Button extends StatelessWidget {
   final Function(BuildContext) _action;
@@ -36,11 +38,13 @@ class Button extends StatelessWidget {
 VoidCallback _increment(BuildContext context) {
   return () {
     context.read<CounterCubit>().increment();
+    context.simpleState<CounterSimpleState>().increment();
   };
 }
 
 VoidCallback _decrement(BuildContext context) {
   return () {
     context.read<CounterCubit>().decrement();
+    context.simpleState<CounterSimpleState>().decrement();
   };
 }
