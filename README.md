@@ -86,4 +86,4 @@ For more information on how to use `flutter_bloc`, check out the [documentation]
 
 ## Talk about this project
 
-This project was created as part of a educational talk in the lecture [Mobile Anwendungen (Mobile Application Development)](https://hm.pages.gitlab.lrz.de/muc.dai-organisation/gs/Mobile%20Anwendungen.html) at the [Hochschule München University of Applied Sciences](https://www.hm.edu/).
+This project was created as part of a educational talk ([slides](docs/slides.pdf)) in the lecture [Mobile Anwendungen (Mobile Application Development)](https://hm.pages.gitlab.lrz.de/muc.dai-organisation/gs/Mobile%20Anwendungen.html) at the [Hochschule München University of Applied Sciences](https://www.hm.edu/).
