@@ -61,6 +61,14 @@ Presented by Paul Köhler
 
 ---
 
+# Installing the `bloc` dependency.
+
+```bash
+$ dart pub add flutter_bloc
+```
+
+---
+
 # How to define a `cubit`
 
 ```dart
